@@ -27,8 +27,8 @@ Using Bundler:
 `app/controllers/admin/xxx_imports_controller.rb:32 - remove unused methods (Admin::XxxImportsController#get_yyyy_zzzz_location)
  app/controllers/admin/xxx_yyyy_controller.rb:32 - remove unused methods (Admin::XxxYyyController#yyyy_zzzz_location)`
 
-4. Run My class 
-CommentUnused
- 
+4. Run My class. Now, go and check your directory. The unwanted methods will comment out.
+   
+   `CommentUnused.new.comment('output.txt')`
 
 

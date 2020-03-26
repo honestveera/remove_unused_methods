@@ -1,6 +1,7 @@
 # Comment OR Remove Unused methods
 
-  How can we found out unused code in Rails?
+  How can we found unused code in Rails?
+  
   We can found unused code using  `rails_best_practices`
 
 # Installation

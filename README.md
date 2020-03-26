@@ -24,8 +24,8 @@ Using Bundler:
     
 3. Please check your `output.txt` file. you will get all unused methods like below
 
-`app/controllers/admin/xxx_imports_controller.rb:32 - remove unused methods (Admin::XxxImportsController#get_yyyy_zzzz_location)
- app/controllers/admin/xxx_yyyy_controller.rb:32 - remove unused methods (Admin::XxxYyyController#yyyy_zzzz_location)`
+`app/controllers/aaaa/xxx_bbb_controller.rb:32 - remove unused methods (Aaa::XxxBbbController#get_yyyy_zzzz_location)
+ app/controllers/aaa/xxx_yyyy_controller.rb:32 - remove unused methods (Aaaa::XxxYyyController#yyyy_zzzz_location)`
 
 4. Run My class. Now, go and check your directory. The unwanted methods will comment out.
    

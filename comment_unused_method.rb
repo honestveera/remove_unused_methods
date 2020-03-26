@@ -4,7 +4,7 @@ class CommentUnusedMethod
     count = 0
     File.readlines(file_name).each do |line|
       count += 1
-      c = RemoveUnusedMethod.new(line)
+      c = UnusedMethod.new(line)
       c.delete_unuse_methods
     end
     puts "Total Count: #{count}"

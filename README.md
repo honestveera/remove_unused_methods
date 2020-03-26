@@ -1,4 +1,4 @@
-# Comment OR Remove Unused methods
+# Comment (OR) Remove Unused methods
 
   How can we found unused code in Rails?
   
@@ -29,6 +29,6 @@ Using Bundler:
 
 4. Run My class. Now, go and check your directory. The unwanted methods will comment out.
    
-   `CommentUnused.new.comment('output.txt')`
+   `CommentUnusedMethod.new.comment('output.txt')`
 
 
